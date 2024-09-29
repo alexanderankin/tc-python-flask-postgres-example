@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tc-python-flask-postgres-example"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "3.0.3"
+Flask-SQLAlchemy = "^3.1.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+requests = "^2.32.3"
+testcontainers = "^4.8.1"
+ruff = "^0.6.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
